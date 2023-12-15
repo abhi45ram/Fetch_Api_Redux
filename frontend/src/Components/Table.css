@@ -1,0 +1,50 @@
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #f2f2f2; 
+  color: #333;
+  padding: 8px; 
+}
+.center-table tbody tr:nth-child(even) {
+  background-color: rgb(207, 127, 6); 
+}
+
+.center-table tbody tr:nth-child(even) td {
+  color: white; 
+  font-weight: bold; 
+}
+.center-table tbody tr:nth-child(odd) {
+  background-color: black; 
+}
+
+.center-table tbody tr:nth-child(odd) td {
+  color: white; 
+  font-weight: bold; 
+}
+
+.filter-input {
+  margin-bottom: 40px;
+}
+
+.center-table {
+  border-collapse: separate;
+  /* border-spacing: 0px 10px; */
+
+  width: 70%;
+  text-align: center; 
+  margin-bottom: 50px;
+}
+
+
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-buttons button {
+  margin: 0 5px;
+  margin-top: 50px;
+}
